@@ -1,0 +1,9 @@
+datasets/
+logs/
+models/
+__pycache__/
+
+*.raw
+*.pkl
+*.txt
+*.csv
