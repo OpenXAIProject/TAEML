@@ -39,15 +39,13 @@ CUB-200 http://www.vision.caltech.edu/visipedia-data/CUB-200-2011/
 
 Awa https://cvml.ist.ac.at/AwA2/
 
-
 Preprocess the datasets to build a few-shot classification dataset
 ```bash
 $ cd datasets-serializer
 $ python read_datasets.py
 $ python pkl2dataset.py
 ```
-Then you get the datasets on the  directory. 
-
+Then you get the datasets on the  directory.
 
 ### Run the model
 1. Pretrain all of the meta-learners
@@ -69,11 +67,8 @@ $ python get_results.py
 
 <p float="left">
   <img src="src/results/avgw-1.png" width="400" />
-  <img src="src/results/avgw2-1.png" width="400" /> 
+  <img src="src/results/avgw2-1.png" width="400" />
 </p>
-
-
-
 
 # XAI Project
 
