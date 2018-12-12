@@ -66,10 +66,9 @@ $ python get_results.py
 
 ### Results
 ![Alt text](src/results/fig1.PNG?raw=true "Title")
-<p align="center">
- <src="src/results/fig2.PNG">
- <src="src/results/fig3.PNG">
-</p>
+<src="src/results/fig2.PNG">
+<src="src/results/fig3.PNG">
+
 
 
 # XAI Project
