@@ -68,6 +68,8 @@ $ python get_results.py
 ![Alt text](src/results/fig1.PNG?raw=true "Title")
 ![Alt text](src/results/fig2.PNG?raw=true "Title")
 ![Alt text](src/results/fig3.PNG?raw=true "Title")
+<img src="src/results/fig1.PNG" alt="alt text" width="650" height="650">
+
 
 
 
