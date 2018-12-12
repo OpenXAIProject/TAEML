@@ -24,6 +24,7 @@ First, clone this repo in same directory.
 $ git clone https://github.com/OpenXAIProject/TAEML.git
 ```
 Then, you need to download some datasets for few-shot classification.
+
 MNIST: http://yann.lecun.com/exdb/mnist/
 
 CIFAR: https://www.cs.toronto.edu/~kriz/cifar.html
