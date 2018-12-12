@@ -5,7 +5,14 @@
 ### **How to Use**
 
 ```bash
-$ TBD
+Abstract
+Most of meta-learning methods assume that a set of tasks in the meta-training
+phase is sampled from a single dataset. Thus, when a new task is drawn from
+another dataset, the performance of meta-learning methods is degraded. To alleviate
+this effect, we introduce a task-adaptive ensemble network that aggregates metalearners
+by putting more weights on the learners that are expected to perform
+well to the given task. Experiments demonstrate that our task-adaptive ensemble
+significantly outperforms previous meta-learners and their uniform averaging.
 ```
 
 <img src="http://xai.unist.ac.kr/static/img/logos/XAIC_logo.png" width="300" height="100">
