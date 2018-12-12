@@ -65,7 +65,7 @@ $ python get_results.py
 ```
 
 ### Results
-<img src="src/results/fig2.PNG" width="1024" />
+<img src="src/results/fig1.PNG" width="1024" />
 
 <p float="left">
   <img src="src/results/fig2.PNG" width="380" />
