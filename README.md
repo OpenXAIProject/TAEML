@@ -65,11 +65,11 @@ $ python get_results.py
 ```
 
 ### Results
-<img src="src/results/fig1.PNG" width="1024" />
+<img src="src/results/fig1.PNG" width="800" />
 
 <p float="left">
-  <img src="src/results/fig2.PNG" width="380" />
-  <img src="src/results/fig3.PNG" width="400" /> 
+  <img src="src/results/avgw.pdf" width="400" />
+  <img src="src/results/avgw.pdf" width="400" /> 
 </p>
 
 
