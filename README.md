@@ -66,7 +66,9 @@ $ python get_results.py
 
 ### Results
 ![Alt text](src/results/fig1.PNG?raw=true "Title")
-<img src="src/results/fig2.PNG"> <img src="src/results/fig3.PNG">
+![alt-text-1](src/results/fig2.PNG "title-1") ![alt-text-2](src/results/fig3.PNG "title-2")
+
+
 
 
 
