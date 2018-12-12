@@ -4,16 +4,19 @@
 > TAEML: Task-Adaptive Ensemble of Meta-Leaners for Few-shot Classification
 ### **How to Use**
 
-```bash
-Abstract
-Most of meta-learning methods assume that a set of tasks in the meta-training
-phase is sampled from a single dataset. Thus, when a new task is drawn from
-another dataset, the performance of meta-learning methods is degraded. To alleviate
-this effect, we introduce a task-adaptive ensemble network that aggregates metalearners
-by putting more weights on the learners that are expected to perform
-well to the given task. Experiments demonstrate that our task-adaptive ensemble
-significantly outperforms previous meta-learners and their uniform averaging.
-```
+# Uncetainty-Aware Attention for Reliable Interpretation and Prediction
++ Jay Heo(KAIST, Co-author), Hae Beom Lee (KAIST, Co-author), Saehoon Kim (AITRICS), Juho Lee (Univ. Oxford), Kwang Joon Kim(Yonsei University College of Medicine), Eunho Yang (KAIST), and Sung Ju Hwang (KAIST)
+
+<b> Update (November 4, 2018)</b> TensorFlow implementation of [Uncetainty-Aware Attention for Reliable Interpretation and Prediction](https://arxiv.org/pdf/1805.09653.pdf) which introduces uncertainty-aware attention mechanism for time-series data (in Healthcare). We model the attention weights as Gaussian distribution with input dependent noise that the model generates attention with small variance when it is confident about the contribution of the gived features and allocates noisy attentions with large variance to uncertainty features for each input.
+
+## Abstract
+<p align="center">
+<img width="633" height="391" src="https://github.com/OpenXAIProject/UncertintyAttention_DropMax/blob/master/UA-master/ua_model.png">
+    </p>
+Attention mechanism is effective in both focusing the deep learning models on relevant features and interpreting them. However, attentions may be unreliable since the networks that generate them are often trained in a weakly-supervised manner. To overcome this limitation, we introduce the notion of input-dependent uncertainty to the attention mechanism, such that it generates attention for each feature with varying degrees of noise based on the given input, to learn larger variance on instances it is uncertain about. We learn this Uncertainty-aware Attention (UA) mechanism using variational inference, and validate it on various risk prediction tasks from electronic health records on which our model significantly outperforms existing attention models. The analysis of the learned attentions shows that our model generates attentions that comply with clinicians’ interpretation, and provide richer interpretation via learned variance. Further evaluation of both the accuracy of the uncertainty calibration and the prediction performance with “I don’t know” decision show that UA yields networks with high reliability as well.
+
+
+
 
 <img src="http://xai.unist.ac.kr/static/img/logos/XAIC_logo.png" width="300" height="100">
 
