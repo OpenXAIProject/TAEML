@@ -66,7 +66,7 @@ $ python get_results.py
 
 ### Results
 ![Alt text](src/results/fig1.PNG?raw=true "Title")
-![alt-text-1](src/results/fig2.PNG "title-1") ![alt-text-2](src/results/fig3.PNG "title-2")
+![alt-text-1](src/results/fig2.PNG "title-1" "width"=342 "height"=209 ) ![alt-text-2](src/results/fig3.PNG "title-2")
 
 
 
