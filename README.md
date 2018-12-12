@@ -68,8 +68,8 @@ $ python get_results.py
 <img src="src/results/fig1.PNG" width="800" />
 
 <p float="left">
-  <img src="src/results/avgw.pdf" width="400" />
-  <img src="src/results/avgw.pdf" width="400" /> 
+  <img src="src/results/avgw-1.png" width="400" />
+  <img src="src/results/avgw2-1.png" width="400" /> 
 </p>
 
 
