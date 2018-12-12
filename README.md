@@ -25,11 +25,17 @@ $ git clone https://github.com/OpenXAIProject/TAEML.git
 ```
 Then, you need to download some datasets for few-shot classification.
 MNIST: http://yann.lecun.com/exdb/mnist/
+
 CIFAR: https://www.cs.toronto.edu/~kriz/cifar.html
+
 Caltech101 http://www.vision.caltech.edu/Image_Datasets/Caltech101/
+
 Caltech256 http://www.vision.caltech.edu/Image_Datasets/Caltech256/
+
 VOC2012  http://host.robots.ox.ac.uk/pascal/VOC/voc2012/
+
 CUB-200 http://www.vision.caltech.edu/visipedia-data/CUB-200-2011/
+
 Awa https://cvml.ist.ac.at/AwA2/
 
 
