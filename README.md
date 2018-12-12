@@ -16,10 +16,50 @@ by putting more weights on the learners that are expected to perform
 well to the given task. Experiments demonstrate that our task-adaptive ensemble
 significantly outperforms previous meta-learners and their uniform averaging.
 
+## Getting Started
+### Prerequisites
+
+First, clone this repo in same directory.
+```bash
+$ git clone https://github.com/OpenXAIProject/TAEML.git
+```
+Then, you need to download some datasets for few-shot classification.
+MNIST: http://yann.lecun.com/exdb/mnist/
+CIFAR: https://www.cs.toronto.edu/~kriz/cifar.html
+Caltech101 http://www.vision.caltech.edu/Image_Datasets/Caltech101/
+Caltech256 http://www.vision.caltech.edu/Image_Datasets/Caltech256/
+VOC2012  http://host.robots.ox.ac.uk/pascal/VOC/voc2012/
+CUB-200 http://www.vision.caltech.edu/visipedia-data/CUB-200-2011/
+Awa https://cvml.ist.ac.at/AwA2/
 
 
+Preprocess the datasets to build a few-shot classification dataset
+```bash
+$ cd datasets-serializer
+$ python read_datasets.py
+$ python pkl2dataset.py
+```
+Then you get the datasets on the  directory. 
 
-<img src="http://xai.unist.ac.kr/static/img/logos/XAIC_logo.png" width="300" height="100">
+
+### Run the model
+1. Pretrain all of the meta-learners
+```bash
+$ cd TAEML
+$ ./pretrain_all.sh
+```
+2. train TAEML
+```bash
+$ python taeml_train.py
+```
+3. get the results
+```bash
+$ python get_results.py
+```
+
+### Results
+
+
 
 # XAI Project
 
