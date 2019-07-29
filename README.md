@@ -60,11 +60,11 @@ $ ./script/run_taeml.sh
 
 
 ### Results
-<img src="src/results/fig1.PNG" width="800" />
+<img src="results/fig1.PNG" width="800" />
 
 <p float="left">
-  <img src="src/results/avgw-1.png" width="400" />
-  <img src="src/results/avgw2-1.png" width="400" />
+  <img src="results/avgw-1.png" width="400" />
+  <img src="results/avgw2-1.png" width="400" />
 </p>
 
 # XAI Project
