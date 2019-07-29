@@ -57,6 +57,10 @@ $ ./script/run_baselearners.sh
 ```bash
 $ ./script/run_taeml.sh
 ```
+3. get results
+```bash
+$ python get_results.py
+```
 
 
 ### Results
