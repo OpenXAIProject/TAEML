@@ -41,7 +41,7 @@ Awa https://cvml.ist.ac.at/AwA2/
 
 Preprocess the datasets to build a few-shot classification dataset
 ```bash
-$ cd datasets-serializer
+$ cd TAEML/datasets-serializer
 $ python read_datasets.py
 $ python pkl2dataset.py
 ```
@@ -50,17 +50,14 @@ Then you get the datasets on the  directory.
 ### Run the model
 1. Pretrain all of the meta-learners
 ```bash
-$ cd TAEML
-$ ./pretrain_all.sh
+$ cd TAEML/ProtoNet
+$ ./script/run_baselearners.sh
 ```
 2. train TAEML
 ```bash
-$ python taeml_train.py
+$ ./script/run_taeml.sh
 ```
-3. get the results
-```bash
-$ python get_results.py
-```
+
 
 ### Results
 <img src="src/results/fig1.PNG" width="800" />
